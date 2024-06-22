@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhn0ykn3jhdjs"]
+
+[ext_resource type="PackedScene" uid="uid://braua5sfxakrr" path="res://Prefabs/player.tscn" id="1_5e0ev"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_5e0ev")]
+SPEED = 500.0
+SLOWDOWN = 500.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
